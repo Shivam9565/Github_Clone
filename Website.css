@@ -1,0 +1,340 @@
+
+*{
+    margin:0;
+}
+body{
+    margin-right:10px;
+}
+.header{
+    height: 70px;
+    position:relative;
+    background-color:aquamarine;
+    
+}
+.navbar{
+    position: relative;
+    display: flex; 
+    justify-content:space-between;
+    /*padding: .5rem 1rem; */
+}
+
+.div1{
+    
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+   
+}
+.ul1{
+    display: flex;
+    justify-content: center;
+    list-style:none; 
+    margin-top: 20px;
+    padding-left: 20px;
+    
+}
+li{
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(21, 21, 21);
+    margin-left: 25px;
+}
+li:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.span{
+    font-weight: bold;
+    font-size: 25px;
+    border-style: solid;
+    border-width: thin;
+    background-color: beige;
+    box-shadow: 0px 0px 6px black;
+    padding-top: 5px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 10px;  
+    margin-bottom: 10px;  
+}
+.span:hover{
+    cursor:pointer;
+    background-color: blue;
+}
+.button{
+    background-color: beige;
+   font-size: 15px;
+   border-width: thin;
+   box-shadow:0px 0px 4px black;
+   padding: 10px;
+   margin-top: 15px;
+   margin-bottom: 10px;
+   margin-right: 15px;  
+   border-radius: 5px;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+.xyz{
+    border: 0 solid transparent;
+    box-shadow: none;
+    width: auto;
+    background-color:aquamarine ;
+}
+.section1{
+    height: 80vh;
+    background-image:url(https://duttrohan0302.github.io/accio-batch11/dec16th_bootstrap_UI/images/image2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    margin-top: 12%;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 25px;
+    text-align: center;
+    
+}
+.para{
+    margin-top: 25px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.maincontent{
+    margin-top: 25px;
+    display: flex;
+    gap: 15px;
+    justify-content:space-around;
+    align-items: center;
+}
+.button1{
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    padding: 14px;
+    border-radius: 5px;
+}
+.button2{
+    background-color:beige ;
+    color: black;
+    font-size: 17px;
+    padding: 14px;
+    border-radius: 5px;
+}
+.button1:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+.button2:hover{
+    background-color:rgb(150, 150, 237);
+    cursor: pointer;
+}
+.section2{
+  height: 70vh;
+  background-image: url(https://duttrohan0302.github.io/accio-batch11/dec16th_bootstrap_UI/images/image3.jpg);
+  background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.content1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading1{
+    margin-top: 10%;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+
+}
+.para1{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: white;
+    margin-bottom: 25px;
+}
+.button3{
+    margin-top: 20px;
+    font: 17px;
+    padding: 18px;
+    background-color: rgb(208, 94, 94);
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px black;
+}
+.button3:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+}
+.section3{
+    height: 90vh;
+    background-color: aliceblue;
+}
+.container {
+    
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.container .container-1{
+    display: flex;
+    gap: 30px;
+    padding-top: 5%;
+    padding-bottom: 20px;
+    
+}
+.container .container-1 .subcontainer-1{
+   padding: 5px;
+}
+.container .container-2{
+    display: flex;
+    gap: 30px;
+    padding-top: 1%;
+
+}
+.container .container-1 .subcontainer-2{
+    padding: 5px;
+}
+.section4{
+    height:80vh;
+    background-color:#343a40!important;
+}
+.section4 .container
+{
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+
+.section4 .container .row1{
+    padding-top: 90px;
+
+}
+.section4 .container .row1 img{
+    width: 590px;
+}
+.section4 .container .row2{
+    padding-top: 90px;
+    padding-left: 50px;
+    padding-right: 30px;
+}
+.section4 .container .row2 .join{
+    padding-top:20px;
+    padding-right: 30px;
+}
+.section4 .container .row2 .heading-section4{
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+.section4 .container .row2 .join button{
+    padding: 15px;
+    background-color: rgb(37, 115, 37);
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+    margin-bottom: 10px;
+}
+.section4 .container .row2 .join button:hover{
+    background-color: aliceblue;
+    color: black;
+    cursor: pointer;
+}
+.section4 .container .row2 .join p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+}
+footer{
+    height: 45vh;
+    background-color: white;
+}
+
+.section5 .container{
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+       
+}
+.section5 .container .heading1{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.section5 .container .heading2{
+  text-align: center;
+  font-size:25px;
+  margin-bottom: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.section5 .container .div1{
+    display: inline;
+}
+.section5 .container .div1 .text1{
+    width: 30%;
+    padding: 10px;
+    border-style: solid;
+}
+.section5 .container .div1 .button6{
+    padding: 10px;
+    width:10%;
+    background-color: rgb(208, 72, 72);
+    color: white;
+    box-shadow: 0px 0px 5px black;
+}
+.section5 .container .div1 .button6:hover{
+    background-color: aliceblue;
+    color: black;
+    cursor: pointer;
+}
+.div2{
+    margin-top: 80px;
+    font-size: 30px;
+    text-align: center;
+}
+.div2 .abcd{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+.xyza{
+    font-weight: lighter;
+    text-align: center;
+    justify-content: center;
+    margin-top:10px;
+}
+
